@@ -1,0 +1,386 @@
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #06314b;
+}
+.nav-container {
+  background-color: #1b8cd8;
+  padding: 20px;
+  border-bottom: 2px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container .para {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  color: #230404;
+}
+
+.nav-container ul li a:hover {
+  color: #e7460b;
+}
+
+/* ---Home--- */
+
+.home-page {
+  text-align: center;
+  padding: 50px;
+  height: 59vh;
+}
+
+.home-page h1 {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+/* --Registration-- */
+
+.user-page {
+  text-align: center;
+  padding: 20px;
+  height: 69vh;
+}
+
+.user-page h2 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.user-page .form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-page .form input,
+.user-page .form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #06314b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.user-page .form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.user-page .form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-page .form button:hover {
+  background-color: #0056b3;
+}
+
+.user-page .form p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-page .form p button {
+  background: none;
+  border: none;
+  color: #1378f3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.user-page .form p button:hover {
+  color: #cad4de;
+}
+
+/* ---Update/Add confernce */
+
+.update-schedule {
+  text-align: center;
+  padding: 50px;
+  /* background-color: #f5f5f5; */
+}
+
+.update-schedule button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.update-schedule button:hover {
+  background-color: #c82333;
+}
+
+.update-schedule h1 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.update-schedule .add-conference {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #06314b;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-schedule .add-conference input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update-schedule .add-conference button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update-schedule .add-conference button:hover {
+  background-color: #0056b3;
+}
+
+/* --schedule Page-- */
+
+.schedule-page {
+  text-align: center;
+  padding: 50px;
+  /* background-color: #f5f5f5; */
+}
+
+.schedule-page button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.schedule-page button:hover {
+  background-color: #c82333;
+}
+
+.schedule-page h1 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.schedule-page .schedule-container {
+  display: inline-block;
+  text-align: left;
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.schedule-page table th,
+.schedule-page table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.schedule-page table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.schedule-page table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.schedule-page textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.schedule-page .schedule-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.schedule-page .schedule-container button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  background-color: #1b8cd8;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+/* --FeedBack-- */
+
+.feedback {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.feedback table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.feedback table th,
+.feedback table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.feedback table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.feedback table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.feedback table tr:hover {
+  background-color: #ddd;
+}
+
+.feedback table th,
+.feedback table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.feedback table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.feedback table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.feedback table tr:hover {
+  background-color: #ddd;
+}
+
+.feedback table td {
+  word-wrap: break-word;
+}
+
+
+
